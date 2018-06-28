@@ -1,0 +1,19 @@
+{
+  "name": "finicity",
+  "version": "1.0.0",
+  "description": "Keeps track of individual contestant scores for a pie eating contest at the county fair.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptologica/finicity-assessment.git"
+  },
+  "author": "JT Newsome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryptologica/finicity-assessment/issues"
+  },
+  "homepage": "https://github.com/cryptologica/finicity-assessment#readme"
+}
