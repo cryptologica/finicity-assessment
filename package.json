@@ -4,7 +4,8 @@
   "description": "Keeps track of individual contestant scores for a pie eating contest at the county fair.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/cryptologica/finicity-assessment/issues"
   },
-  "homepage": "https://github.com/cryptologica/finicity-assessment#readme"
+  "homepage": "https://github.com/cryptologica/finicity-assessment#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
 }
